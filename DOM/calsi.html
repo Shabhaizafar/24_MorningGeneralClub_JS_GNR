@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <article>
+        <section class="ease">ease</section>
+    <section class="ease-in">ease-in</section>
+    <section class="ease-out">ease-out</section>
+    <section class="ease-in-out">ease-in-out</section>
+    </article> -->
+    <div class="calculator">
+        <div class="display">
+            <input type="text" class="dis2" value="" readonly>
+            <input type="text" id="result" value="0" readonly>
+        </div>
+        <div class="buttons">
+            <input type="button" class="button" onclick="Main()" id="clear" value="AC">
+            <input type="button" class="button" onclick="deleteData()" id="delete" value="Del">
+            <input type="button" class="button" onclick="Main('/')" value="/">
+            <input type="button" class="button" onclick="Main('*')" value="*">
+            <input type="button" class="button" onclick="Main('7')" value="7">
+            <input type="button" class="button" onclick="Main('8')" value="8">
+            <input type="button" class="button" onclick="Main('9')" value="9">
+            <input type="button" class="button" onclick="Main('-')" value="-">
+            <input type="button" class="button" onclick="Main('4')" value="4">
+            <input type="button" class="button" onclick="Main('5')" value="5">
+            <input type="button" class="button" onclick="Main('6')" value="6">
+            <input type="button" class="button" onclick="Main('+')" value="+">
+            <input type="button" class="button" onclick="Main('1')" value="1">
+            <input type="button" class="button" onclick="Main('2')" value="2">
+            <input type="button" class="button" onclick="Main('3')" value="3">
+            <input type="button" class="button" onclick="Main('%')" value="%">
+            <input type="button" class="button" onclick="Main('0')" value="0">
+            <input type="button" class="button equal" value="=" onclick="finalop('=')">
+            <input type="button" class="button" onclick="Main('.')" value=".">
+        </div>
+        <footer>
+            Developed by <span class="developer">EDUCERO</span>
+        </footer>
+    </div>
+ 
+
+    <script src="script.js"></script>
+</body>
+</html>

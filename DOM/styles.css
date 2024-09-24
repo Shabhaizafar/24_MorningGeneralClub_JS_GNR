@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    flex-direction: column;
+}
+
+.calculator {
+    background-color: #141414;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    height: 650px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+/* article{
+    display: flex;
+    gap: 150px;
+}
+section{
+    width: 100px;
+    height: 100px;
+    background-color: #333399;
+    animation-name: box;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes box {
+    to{
+        transform: translateX(100px);
+    }
+}
+.ease{
+    animation-timing-function: ease;
+}
+.ease-in{
+    animation-timing-function: ease-in;
+}
+.ease-out{
+    animation-timing-function: ease-out;
+}
+.ease-in-out{
+    animation-timing-function: ease-in-out;
+}
+    
+*/
+.display {
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 2rem;
+    
+}
+.dis2{
+    color: #404040;
+    text-align: right;
+    font-size: 1.2rem;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+
+#result {
+    color: #000000;
+    text-align: right;
+    font-size: 2.5rem;
+    width: 100%;
+    font-weight: bold;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.button {
+    background-color: #404040;
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease;
+    height: 80px;
+}
+
+.button:hover {
+    background-color: #606060;
+}
+
+.equal {
+    grid-column: span 2;
+    background-color: #ffa500;
+    color: white;
+    height: 80px;
+}
+
+.equal:hover {
+    background-color: #ff8c00;
+}
+
+.zero {
+    grid-column: span 2;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #f2f2f2;
+}
+
+.developer {
+    color: #ffa500;
+    font-weight: bold;
+}
+
+button:focus {
+    outline: none;
+}
+
+.calculator.alt-color {
+    background-color: #333399; 
+}
+
+.calculator.alt-color .button {
+    background-color: #6666ff;
+}
+
+.calculator.alt-color .equal {
+    background-color: #ff9933;
+}
+
+.calculator.alt-color .developer {
+    color: #ffcc00;
+}
