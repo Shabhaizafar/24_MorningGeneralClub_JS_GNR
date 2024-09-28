@@ -15,6 +15,31 @@
 
 var div = document.querySelector('div');
 
-document.body.onkeydown = function(event){
-    div.innerHTML += event.key;
+// document.body.onkeydown = function(event){
+//     div.innerHTML += event.key;
+// }
+
+// document.body.onkeypress = function(){
+//     console.log("Press");
+// }
+
+
+// document.body.onkeyup = function(){
+//     console.log("Up");
+// }
+
+// document.body.onkeydown = function(){
+//     console.log("Down");
+// }
+
+var maxword = parseInt(Math.random()*10)+1;
+// var maxchar = parseInt(Math.random()*10);
+// console.log(maxchar);
+
+for (let i = 1; i <=maxword; i++) { // 3   //1 2
+    var maxchar = parseInt(Math.random()*10)+1; // 3   2
+    for (let j = 1; j <=maxchar; j++) {//1 2 3
+        div.innerHTML +=String.fromCharCode(parseInt(Math.random()*26)+97);
+    }
+    div.innerHTML += ' ';
 }
