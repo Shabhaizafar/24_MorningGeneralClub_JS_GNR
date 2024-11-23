@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: gainsboro;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+            gap: 30px;
+        }
+        section:first-child{
+            display: flex;
+            padding: 20px;
+            gap: 30px;
+        }
+        section:nth-child(2){
+            display: flex;
+            width: 500px;
+            justify-content: center;
+            gap: 10px;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: darkolivegreen;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        button{
+            color: navy;
+            background-color: lightseagreen;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 10px;
+            font-size: 24px;
+        }
+        main{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            width: 200px;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            padding: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        article{
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h2>User : </h2>
+        <h2 class="u-point">0</h2>
+        <h2>Computer : </h2>
+        <h2 class="c-point">0</h2>
+    </main>
+    <section>
+        <div class="u-choice"></div>
+        <div class="c-choice"></div>
+    </section>
+    <section class="btns">
+        <button value="rock">Rock</button>
+        <button value="paper">Paper</button>
+        <button value="scissior">Scissior</button>
+    </section>
+    
+    <article>
+        <h1>Game Over !!!</h1>
+    </article>
+    <script src="RPS.js"></script>
+</body>
+</html>
