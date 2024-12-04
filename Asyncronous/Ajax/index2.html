@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AJAX</title>
+
     <style>
         *{
             margin: 0px;
@@ -29,16 +30,41 @@
             border-radius: 10px;
             background-color: darkolivegreen;
         }
-        div{
+        section:first-child{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        section:nth-child(2){
+            width: 100%;
             flex-grow: 1;
+            display: grid;
+            gap: 30px;
+            grid-template-columns: 1fr 1fr;
+            overflow: hidden;
+        }
+        div{
+            background-color: darkgrey;
+        }
+        div{
             overflow: auto;
             color: white;
         }
     </style>
 </head>
 <body>
-     <button>Click Here</button>   
-     <div></div>
-    <!-- <script src="Ajax1.js"></script> -->
+     <!-- <section>
+        <button id="btn1">Button 1</button>   
+        <button id="btn2">Button 2</button>   
+     </section>
+     
+     <section>
+        <div id="dv1"></div>
+        <div id="dv2"></div>
+     </section> -->
+
+     <button>Click Here</button>
+     <script src="Ajax2.js"></script>
+    
 </body>
 </html>

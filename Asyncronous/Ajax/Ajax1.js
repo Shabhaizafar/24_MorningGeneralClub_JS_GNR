@@ -9,5 +9,5 @@ btn.onclick = function(){
         document.querySelector('div').innerHTML = `<pre>${data.target.response}</pre>`;
     };
     xhttp.open("GET","../../ALL JS/JavaScript.txt");  // txt   // html
-    xhttp.send();// 
+    xhttp.send();  
 }
