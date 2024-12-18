@@ -141,14 +141,14 @@
    ✅ Get and set attributes.
    ✅ Select multiple elements and loop through them.
    ✅ innerHTML.
-   - Deeply understand dom tree, root node , element nodes, text nodes.
+   ✅ Deeply understand dom tree, root node , element nodes, text nodes.
    ✅ classList.
    ✅ Add new elements to page.
    ✅ Create elements.
-   - Insert adjacent elements.
-   - Clone nodes.
+   ✅ Insert adjacent elements.
+   ✅ Clone nodes.
    ✅ More methods to add elements on page.
-   - How to get the dimensions of the element.
+   ✅ How to get the dimensions of the element.
    ✅ Events.
    ✅ Intro to events.
    - This keyword inside eventListener callback.
@@ -156,32 +156,32 @@
    ✅ Event object.
    ✅ How event listener works.
    ✅ Practice with events.
-   - Create demo project.
+   ✅ Create demo project.
    ✅ More events.
    ✅ Event bubbling.
    ✅ Event Capturing.
    ✅ Event delegation.
-   - Create Project using event delegation.
+   ✅ Create Project using event delegation.
 
 => Asynchronous JavaScript :-
 
-   - Is Javascript a synchronous or asynchronous programming language ?.
-   - SetTimeout().
-   - SetTimeout() with 0 millisecond.
-   - Callback Queue.
-   - SetInterval and create little project with setInterval.
-   - Understand callbacks in general.
-   - Callbacks in asynchronous programming.
-   - Callback Hell and Pyramid of dom.
-   - Promises, network request.
-   - Intro to promises.
+   ✅ Is Javascript a synchronous or asynchronous programming language ?.
+   ✅ SetTimeout().
+   ✅ SetTimeout() with 0 millisecond.
+   ✅ Callback Queue.
+   ✅ SetInterval and create little project with setInterval.
+   ✅ Understand callbacks in general.
+   ✅ Callbacks in asynchronous programming.
+   ✅ Callback Hell and Pyramid of dom.
+   ✅ Promises, network request.
+   ✅ Intro to promises.
    - Microtask Queue.
    - Function that returns promise.
-   - Promise and settimeout.
-   - Promise.resolve and more about then method.
-   - Convert nested Callbacks to flat code using promises.
-   - Intro to Ajax, HTTP Request.
-   - XHR requests.
+   ✅ Promise and settimeout.
+   ✅ Promise.resolve and more about then method.
+   ✅ Convert nested Callbacks to flat code using promises.
+   ✅ Intro to Ajax, HTTP Request.
+   ✅ XHR requests.
    - Error handling in XHR requests.
    - XHR request Chaining.
    - Promisifying XHR requests and chaining using then method.
