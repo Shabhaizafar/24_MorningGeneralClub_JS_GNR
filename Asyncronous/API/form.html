@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: darkslategrey;
+        }
+        form{
+            background-color: lightskyblue;
+            padding: 20px;
+            width: 50%;
+            text-align: center;
+        }
+        span{
+            background-color: lightskyblue;
+            width: 50%;
+            text-align: center;
+        }
+        input{
+            padding: 5px 10px;
+            width: 100%;
+            font-family: calibri;
+        }
+        ::placeholder{
+            color: darkslateblue;
+        }
+        button{
+            padding: 5px 10px;
+            color: darkred;
+            background-color: darkorange;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <span></span>
+    <form>
+        <input type="number" name="Marks" id="marks" placeholder="Enter Your Marks" min="50" max="100" required>
+        <br>
+        <br>
+        <button>Click Here</button>
+    </form>
+
+    <script src="Form.js"></script>
+</body>
+</html>
